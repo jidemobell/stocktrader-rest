@@ -62,11 +62,7 @@ data using a REST client and run.
 
 ```
 sample request:
- {
-	"country": "US",
-	"bid": 4,
-  "category": "Automobile"
- }
+http://localhost:4000/exchange?countrycode=US&Category=Automobile&BaseBid=10
 ```
 
 ## Built With
