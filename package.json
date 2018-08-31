@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jidemobell/stocktrading.git"
+    "url": "https://github.com/jidemobell/stocktrader-rest.git"
   },
   "author": "jide olaniyan",
   "license": "ISC",
