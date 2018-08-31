@@ -7,11 +7,11 @@ const { checkBudget, baseBid, shortList } = require('../helperFunctions/trade');
 const routes = express.Router();
 
 
-routes.post('/exchange', (req, res) => {
+routes.get('/exchange', (req, res) => {
   const bidData = {
-    country: req.body.country,
-    bid: req.body.bid,
-    category: req.body.category,
+    country: req.query.countrycode,
+    bid: req.query.BaseBid,
+    category: req.query.Category,
   };
 
   const listedCompanies = ['C1', 'C2', 'C3'];
